@@ -37,3 +37,12 @@ A great example of this type of accessory in the wild is the Logitech Pop smart 
   "platforms": []
 }
 ```
+
+## MQTT Client
+This plugin is expecting to receive a JSON message with an `eventValue` attribute.
+The value of this attribute must be 0, 1 or 2; mapping to "Single Press", "Double Press" and "Long Press". E.g.
+```
+{
+  "eventValue": 0
+}
+```
