@@ -1,6 +1,6 @@
 {
   "name": "homebridge-mqtt-statelessswitch",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "A HomeBridge plugin for MQTT Stateless Programmable Switches.",
   "main": "index.js",
   "scripts": {

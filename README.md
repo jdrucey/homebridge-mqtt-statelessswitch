@@ -46,3 +46,5 @@ The value of this attribute must be 0, 1 or 2; mapping to "Single Press", "Doubl
   "eventValue": 0
 }
 ```
+
+This works great with the [esp8266-mqtt-statelessbutton](https://github.com/jdrucey/esp8266-mqtt-statelessbutton) project to wirelessly send push button events from a simple esp8266 device to the MQTT broker (easily set up on a Raspberry Pi along with [HomeBridge](https://github.com/nfarina/homebridge)).
